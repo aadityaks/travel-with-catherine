@@ -6,6 +6,7 @@ import SideMenu from "./components/sideMenu/SideMenu";
 import Blog from "./components/blog/Blog";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
+import Portfolio from "./components/portfolio/Portfolio"
 //Styles
 import "./core-ui/index.css";
 import BlogPost from "./components/blog-post/BlogPost";
@@ -20,6 +21,7 @@ const App: FC = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/blog/:title" element={<BlogPost/>} />
       </Routes>
     </Router>

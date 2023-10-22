@@ -57,7 +57,7 @@ const Gallery = () => {
   }
 
   useEffect(() => {
-    document.title = "Gallery | Travel with Catherine";
+    document.title = " Jyotsana Singh | Qatra";
     setEndOffset(itemOffset + 12);
     setcurrentBlogPosts([...GalleryData].slice(itemOffset, endOffset));
   }, [setEndOffset, endOffset, itemOffset]);
